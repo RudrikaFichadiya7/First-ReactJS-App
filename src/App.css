@@ -1,0 +1,23 @@
+
+.user-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.app.card {
+    flex: 1 1 calc(33.333% - 32px);
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.app.card .card-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.app .card-header {
+    color: rgb(254, 254, 255);
+    font-weight: bold;
+    background-color: teal;
+}
